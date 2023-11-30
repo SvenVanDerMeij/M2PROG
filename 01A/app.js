@@ -1,4 +1,5 @@
-class App
+
+        class App
 {
     runApplication()
     {
