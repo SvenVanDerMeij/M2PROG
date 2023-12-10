@@ -29,10 +29,23 @@ function letterlijkDeBesteCodeOoitGeschreven()
     {
      console.log("hello world")
     }
+
+    newClassFunction()
+    {
+        console.log("hello world two towers")
+    }
+    intensTweedeKamerDebat(linkseMening)
+    {
+        console.log("goedendag de heer baudet")
+        console.log("hier:")
+        console.log(linkseMening)
+    }
 }
 
 let app = new App();
 app.runApplication();
+app.newClassFunction();
+app.intensTweedeKamerDebat("weg met homo haat");
 
 letterlijkDeBesteCodeOoitGeschreven();
 letterlijkDeBesteCodeOoitGeschreven();
