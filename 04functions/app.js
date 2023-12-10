@@ -28,6 +28,10 @@ function letterlijkDeBesteCodeOoitGeschreven()
     runApplication()
     {
      console.log("hello world")
+     this.wahoo()
+     console.log(this.oohaw())
+     console.log(this.oowah(300, 10))
+     console.log(this.hawoo("janken"))
     }
 
     newClassFunction()
@@ -40,12 +44,34 @@ function letterlijkDeBesteCodeOoitGeschreven()
         console.log("hier:")
         console.log(linkseMening)
     }
+    wahoo()
+    {
+        console.log("MARIO")
+    }
+    oohaw()
+    {
+        let bowser = "hihihaha"
+        return bowser
+    }
+    oowah(q, r)
+    {
+        return (q+r)
+    }
+    hawoo(werkwoord)
+    {
+        return ("ik wil heel graag " + werkwoord)
+    }
 }
 
 let app = new App();
 app.runApplication();
 app.newClassFunction();
 app.intensTweedeKamerDebat("weg met homo haat");
+app.wahoo()
+console.log(app.oohaw())
+console.log(app.oowah(5, 8))
+console.log(app.hawoo("janken"))
+
 
 letterlijkDeBesteCodeOoitGeschreven();
 letterlijkDeBesteCodeOoitGeschreven();
