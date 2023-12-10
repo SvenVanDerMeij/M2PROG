@@ -1,3 +1,9 @@
+function slechteCode(zin)
+{
+    console.log("deze zin is technisch gezien uniek")
+    console.log(zin)
+}
+
 function letterlijkDeBesteCodeOoitGeschreven()
 {
     console.log("Hey I just met you, and this is crazy")
@@ -17,3 +23,6 @@ app.runApplication();
 letterlijkDeBesteCodeOoitGeschreven();
 letterlijkDeBesteCodeOoitGeschreven();
 letterlijkDeBesteCodeOoitGeschreven();
+slechteCode("sick");
+slechteCode("leip")
+slechteCode("radical")
