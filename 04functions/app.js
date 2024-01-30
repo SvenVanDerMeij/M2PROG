@@ -1,3 +1,12 @@
+let bruh = [4, 7, 19, 23] 
+function AAAAAAAAAHHHHHHHHHHHHHHHHH()
+{  
+   bruh.push(Math.round(Math.random()*5))
+   console.log(bruh)
+}
+
+
+
 function Bestaat()
 {
     let uitkomst =1;
@@ -79,6 +88,10 @@ letterlijkDeBesteCodeOoitGeschreven();
 slechteCode("sick");
 slechteCode("leip")
 slechteCode("radical")
+AAAAAAAAAHHHHHHHHHHHHHHHHH();
+AAAAAAAAAHHHHHHHHHHHHHHHHH();
+AAAAAAAAAHHHHHHHHHHHHHHHHH();
+AAAAAAAAAHHHHHHHHHHHHHHHHH();
 let shakespear = Bestaat()
 console.log(shakespear)
 console.log(Bestaat());

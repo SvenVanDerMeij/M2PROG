@@ -7,6 +7,9 @@ class App
         this.tekenHuis(15, 300)
         this.tekenHuis(100, 200)
         this.tekenKerstboom(400,700)
+        this.tekenKerstboom(23, 79)
+        this.tekenKerstboom(80, 340)
+        this.tekenKerstboom(160, 220)
     }
     tekenHuis(x,y){
         let canvas = document.getElementById("canvasId")
@@ -143,61 +146,17 @@ class App
         g.closePath()
         g.stroke()
         g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
+        
+        for (let i = 0; i <Math.round(Math.random()*6)+11; i++){
+            g.beginPath()
+            g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
         g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
         g.stroke();
         g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
-        g.beginPath()
-        g.fillStyle = "#"+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16))+(Math.round((Math.random()*255)).toString(16));
-        g.arc(x+(Math.random()*60)+20, y+(Math.random()*50)+20, 4, 0, 2* Math.PI);
-        g.stroke();
-        g.fill()
+        }
+        
+        
+       
         g.beginPath()
         g.fillStyle = ("#FFFF00")
         g.moveTo(x+50, y+3)
