@@ -6,7 +6,7 @@ class App {
 }
 class Greet {
     constructor() {
-        
+        this.greeting = "heyyyyy"
     }
     showGreeting()
     {
@@ -15,7 +15,7 @@ class Greet {
 }
 class Goodbye {
     constructor() {
-        
+        this.farewell = "joejoe"
     }
     showBye()
     {
@@ -33,5 +33,8 @@ bye.showBye();
 
 greet.showGreeting();
 bye.showBye();
+
+console.log("greeting van buiten: "+ greet.greeting)
+console.log("vaarwel: " + bye.farewell)
 let app = new App();
 app.runApplication();
